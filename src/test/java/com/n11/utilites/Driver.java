@@ -1,4 +1,4 @@
-package com.bugaboo.utilites;
+package com.n11.utilites;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

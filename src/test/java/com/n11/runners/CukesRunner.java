@@ -1,4 +1,4 @@
-package com.bugaboo.runners;
+package com.n11.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
         features = "src/test/resources/features",
-        glue = "com/bugaboo/step_definitions",
+        glue = "com/n11/step_definitions",
         dryRun = false,
-        tags = "@TS05"
+        tags = "@TC01"
 
 )
 public class CukesRunner {

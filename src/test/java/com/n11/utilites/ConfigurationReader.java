@@ -1,4 +1,4 @@
-package com.bugaboo.utilites;
+package com.n11.utilites;
 
 import java.io.FileInputStream;
 import java.io.IOException;

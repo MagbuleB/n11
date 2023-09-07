@@ -1,7 +1,7 @@
-package com.bugaboo.step_definitions;
+package com.n11.step_definitions;
 
 
-import com.bugaboo.utilites.Driver;
+import com.n11.utilites.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
@@ -23,7 +23,7 @@ public class Hooks {
             scenario.attach(screenshot,"image/png",scenario.getName());
         }
 
-        Driver.closeDriver();
+      //  Driver.closeDriver();
     }
 
 }

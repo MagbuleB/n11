@@ -1,2 +1,4 @@
-package com.n11.pages;public class FavoritesPage {
+package com.n11.pages;
+
+public class FavoritesPage extends BasePage{
 }
